@@ -4,21 +4,22 @@
 /*#7CDEDC*/
 /*rgb(252, 253, 250)*/
 body{
-    background-color: #7CDEDC;
+    background-color: #272b2b;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 #container{
     background-color: #a9b3ce;
     padding: 20px;
     display: none;
+    border-radius: 5%;
 }
 
 #container > .block{
     padding: 20px;
+    border-radius: 10%;
 }
 
 .block{
@@ -26,11 +27,12 @@ body{
 }
 
 .block:first-child{
-    background-color: #7CDEDC;
+    background-color: #1c6572;
     color: rgb(252, 253, 250);
 }
 .information-container{
     display: flex;
+    font-size: 20px;
 }
 
 .info{
